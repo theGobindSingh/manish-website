@@ -1,0 +1,21 @@
+#mainNav {
+  background-color: rgb(240, 240, 240);
+  height: 100%;
+  width: 6rem;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-evenly;
+  border-right: 1px solid rgba(120, 120, 120, 0.5);
+  position: fixed;
+  left: 0%;
+  top: 0%;
+}
+#mainNav a {
+  transform: rotate(-90deg);
+  color: black;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+#mainNav a:hover {
+  font-weight: 600;
+}

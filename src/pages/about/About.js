@@ -8,7 +8,7 @@ import si3 from "../../assets/images/reactlogo.png";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
-export default function about() {
+export default function About() {
   return (
     <div id="about" className="full-page">
       <div className="left-side">

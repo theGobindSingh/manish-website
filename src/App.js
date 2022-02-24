@@ -2,6 +2,7 @@ import "./App.css";
 import Nav from "./components/Nav/Nav";
 import Home from "./pages/home/Home";
 import About from "./pages/about/About";
+import Contact from "./pages/contact/Contact";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <div className="blank-element" style={{ width: "13vw" }} />
       <Home />
       <About />
+      <Contact />
     </div>
   );
 }

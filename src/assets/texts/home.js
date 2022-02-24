@@ -1,1 +1,1 @@
-export const homeText = `BRAND NAME HERE`;
+export const homeText = `MRITYUNJ DESIGNS`;

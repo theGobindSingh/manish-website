@@ -1,0 +1,108 @@
+#about {
+  display: flex;
+  padding-left: 30px;
+  overflow: hidden;
+}
+
+#about .left-side {
+  /* background-color: aquamarine; */
+  width: 45%;
+  height: 95%;
+  position: relative;
+  overflow: hidden;
+}
+
+#about .left-side h2 {
+  position: absolute;
+  z-index: 1;
+  top: 3vw;
+  left: 3vw;
+  font-size: 4vw;
+  font-weight: 600;
+  line-height: 4vw;
+}
+
+#about .left-side img {
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  object-fit: contain;
+  height: 100%;
+  width: auto;
+}
+
+#about .left-side .companies {
+  height: 10vw;
+  width: 95%;
+  background-color: rgba(255, 255, 255, 0.95);
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
+}
+
+#about .left-side .companies * {
+  height: 100%;
+}
+
+#about .left-side .companies li {
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+#about .left-side .companies img {
+  width: 100%;
+  height: fit-content;
+  object-fit: contain;
+  justify-self: center;
+  align-self: center;
+  margin: auto;
+}
+
+#about .right-side {
+  margin-left: 3vw;
+  margin-top: 4rem;
+  width: 45%;
+}
+
+#about .right-side > h3 {
+  font-weight: 600;
+  font-size: 3vw;
+  line-height: 3vw;
+}
+
+#about .right-side .right-cols {
+  display: flex;
+  margin-top: 6rem;
+}
+
+#about .right-side .right-cols > div {
+  padding: 10px;
+}
+
+#about .right-side .right-cols h3 {
+  font-weight: 500;
+  font-size: 2vw;
+  margin-bottom: 1.5rem;
+}
+#about .right-side .right-cols p {
+  font-size: medium;
+}
+
+#about .right-side button {
+  padding: 25px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-top: 3rem;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+#about .right-side button:hover {
+  background-color: rgb(240, 240, 240);
+  color: black;
+}

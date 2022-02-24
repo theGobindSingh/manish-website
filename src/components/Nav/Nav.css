@@ -9,6 +9,7 @@
   position: fixed;
   left: 0%;
   top: 0%;
+  z-index: 999;
 }
 #mainNav a {
   transform: rotate(-90deg);

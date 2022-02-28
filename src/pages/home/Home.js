@@ -1,6 +1,5 @@
 import "./Home.css";
 import React from "react";
-import { homeText } from "../../assets/texts/home";
 import sampleImg from "../../assets/images/om.png";
 
 export default function Home() {

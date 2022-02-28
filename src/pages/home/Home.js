@@ -8,14 +8,7 @@ export default function Home() {
     <div id="home" className="full-page">
       <div className="text-area">
         <h1>
-          {homeText.split(" ").map((t, i) => {
-            return (
-              <span key={i}>
-                {t}
-                <br />
-              </span>
-            );
-          })}
+          MRITYUN <span>J</span> DESIGNS
         </h1>
         <a href="/#contact">
           <button>GET IN TOUCH</button>

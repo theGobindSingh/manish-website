@@ -41,6 +41,7 @@ export default function About() {
             customTransition="all 0.5s ease-in-out"
             transitionDuration={500}
             arrows={false}
+            pauseOnHover={false}
           >
             <img src={si} alt="" className="comapny-img" />
             <img src={si2} alt="" className="comapny-img" />
@@ -56,13 +57,13 @@ export default function About() {
               <div className={"col-" + (ind + 1)} key={ind}>
                 <h3>{data[0]}</h3>
                 <p>{data[1]}</p>
+                <a href="/#about">
+                  <button>ALL SERVICES</button>
+                </a>
               </div>
             );
           })}
         </div>
-        <a href="/#about">
-          <button>ALL SERVICES</button>
-        </a>
       </div>
     </div>
   );

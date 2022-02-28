@@ -8,13 +8,21 @@ export default function Nav() {
       //   behavior: "smooth",
       //   block: "start",
       // });
-      const blue = document.querySelector("#" + elemID);
-      let position = blue.getBoundingClientRect();
-      window.scrollTo({
-        top: position.top,
-        left: position.left + window.scrollX - 60,
-        behavior: "smooth",
-      });
+      const elem = document.querySelector("#" + elemID);
+      let position = elem.getBoundingClientRect();
+      if (window.innerWidth >= 900) {
+        window.scrollTo({
+          top: position.top,
+          left: position.left + window.scrollX - 60,
+          behavior: "smooth",
+        });
+      } else {
+        window.scrollTo({
+          top: position.top + window.scrollY - 90,
+          left: position.left,
+          behavior: "smooth",
+        });
+      }
     } catch {}
   }
   return (

@@ -19,34 +19,34 @@ export default function Nav() {
   }
   return (
     <nav id="mainNav">
-      <a
+      <span
         onClick={() => {
           forScroll("home");
         }}
       >
         Home
-      </a>
-      <a
+      </span>
+      <span
         onClick={() => {
           forScroll("about");
         }}
       >
         About
-      </a>
-      <a
+      </span>
+      <span
         onClick={() => {
           forScroll("work");
         }}
       >
         Work
-      </a>
-      <a
+      </span>
+      <span
         onClick={() => {
           forScroll("contact");
         }}
       >
         Contact us
-      </a>
+      </span>
     </nav>
   );
 }

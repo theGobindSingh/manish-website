@@ -38,6 +38,11 @@
   width: 45%;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+}
+#contact .socials .social-links {
+  display: flex;
+  flex-direction: column;
 }
 #contact .socials span {
   margin-bottom: 2.5rem;

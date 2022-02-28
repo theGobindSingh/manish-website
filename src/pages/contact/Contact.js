@@ -27,13 +27,15 @@ export default function Contact() {
           </div>
           <div className="socials">
             <span>CONNECT SOCIALLY @</span>
-            {socials.map((social, ind) => {
-              return (
-                <a href={social[1]} key={ind}>
-                  {social[0]}
-                </a>
-              );
-            })}
+            <div className="social-links">
+              {socials.map((social, ind) => {
+                return (
+                  <a href={social[1]} key={ind}>
+                    {social[0]}
+                  </a>
+                );
+              })}
+            </div>
           </div>
         </div>
       </div>
